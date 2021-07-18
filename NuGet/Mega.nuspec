@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>Mega</id>
+		<version>1.0.0-beta9</version>
+		<authors>2a486f72</authors>
+		<owners />
+		<projectUrl>https://github.com/2a486f72/mega-client</projectUrl>
+		<licenseUrl>http://www.gnu.org/copyleft/lesser.html</licenseUrl>
+		<requireLicenseAcceptance>true</requireLicenseAcceptance>
+		<description>Mega SDK for .NET 4.5 (mega.co.nz)</description>
+		<tags>Mega</tags>
+		<dependencies>
+			<dependency id="Microsoft.AspNet.WebApi.Client" version="4.1.0-alpha-120809" />
+			<dependency id="2a486f72.Useful" version="1.0.4" />
+			<dependency id="Microsoft.Net.Http" version="2.0.20710.0" />
+			<dependency id="Newtonsoft.Json" version="4.5.11" />
+			<dependency id="Microsoft.Bcl.Immutable" version="1.0.8-beta" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="..\Mega\bin\release\2a486f72.Mega.dll" target="lib\net45" />
+		<file src="..\Mega.Client\bin\release\2a486f72.Mega.Client.dll" target="lib\net45" />
+	</files>
+</package>
